@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 body {
     background: url(../img/BGTetris.jpg) no-repeat;
     color: black;
@@ -9,24 +11,50 @@ body {
 }
 
 canvas {
-    border: solid .2em #ffff;
+    border: solid .2em #34ADE9;
     height: 90vh;
+}
+
+.item {
+    width: 33%;
+}
+
+#score {
+    width: 100vw;
+}
+
+#score p {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
 }
 
 .container-left {
     display: flex;
     float: left;
-    border: 2px solid red;
+    margin-top: 300px;
+    background: linear-gradient(to left, #34ADE9, #D934E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
 }
 
 .container-right {
     display: flex;
     float: right;
-    border: 2px solid red;
+    margin-top: 300px;
+    background: linear-gradient(to right, #34ADE9, #D934E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+}
+
+.container-left p, .container-right p {
+    text-align: center;
 }
 
 .container-game {
     display: flex;
     justify-content: space-around;
-    border: 2px solid purple;
+    font-family: 'Press Start 2P', cursive;
 }

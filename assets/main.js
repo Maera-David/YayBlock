@@ -206,7 +206,7 @@ function update(time = 0){
 }
 
 function updateScore(){
-    document.getElementById('score').innerText = player.score;
+    document.getElementById('score').innerHTML = "<p>" + player.score + "</p>";
 }
 
 document.addEventListener('keydown', event => {
