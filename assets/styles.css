@@ -1,0 +1,32 @@
+body {
+    background: url(../img/BGTetris.jpg) no-repeat;
+    color: black;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    overflow-x : hidden;
+    margin: auto;
+}
+
+canvas {
+    border: solid .2em #ffff;
+    height: 90vh;
+}
+
+.container-left {
+    display: flex;
+    float: left;
+    border: 2px solid red;
+}
+
+.container-right {
+    display: flex;
+    float: right;
+    border: 2px solid red;
+}
+
+.container-game {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid purple;
+}
